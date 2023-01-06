@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -337,6 +339,7 @@ footer {
     padding-top: 43px;
     padding-bottom: 43px;
     margin-top: 130px;
+
 }
 
 footer h4 {
@@ -344,7 +347,9 @@ footer h4 {
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
-
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
     color: #FF5959;
 }
 
@@ -352,4 +357,9 @@ footer p {
     font-weight: 400;
     font-size: 14px;
     color: #D9DBE1;
+}
+
+.humble {
+    font-family: 'Moon Dance', cursive;
+
 }
