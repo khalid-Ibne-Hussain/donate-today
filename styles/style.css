@@ -6,7 +6,8 @@
 
 .banner {
     background-color: #FFF8F3;
-    background-image: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url(../images/donation3.jpg);
+    background-image: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url(../images/donation2.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     /* background-color: #FFF8F3; */
     text-align: center;
@@ -93,9 +94,12 @@ section {
     /* align-content: center; */
     /* justify-content: center;
     align-items: center; */
+    text-align: center;
 }
 
-hr {}
+.input {
+    text-align: center;
+}
 
 .donate-today {
     /* width: 826px;
@@ -270,13 +274,18 @@ main {
 
 .update p {
     margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .update-area {
     background: #FFF4D6;
     width: 809px;
     height: 200px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -288,6 +297,7 @@ main {
     border-radius: 5px 0px 0px 5px;
     margin: 76px 0 76px 188px;
     border: none;
+    margin: auto;
 
 }
 
