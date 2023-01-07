@@ -216,13 +216,15 @@ main {
 /* lives depends */
 .live-depend {
     display: flex;
-    gap: 83px;
+    gap: 35px;
     justify-content: space-between;
+
 }
 
 .live-depend img {
-    width: 456px;
-    height: 477px;
+    width: 600px;
+    height: 470px;
+    border-radius: 5px;
 }
 
 .live-depend-desc {
@@ -250,6 +252,33 @@ main {
     font-size: 20px;
     color: #FFFFFF;
     border: none;
+}
+
+/* ************volunteer************** */
+.volunteer {
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url(../images/R.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+
+.volunteer_txt {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.volunteer_txt h3 {
+    color: #FAFAFA;
+}
+
+.volunteer_txt p {
+    color: #FAFAFA;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 /* get my updates */
@@ -320,10 +349,11 @@ footer {
     background: #0B0D17;
     width: 1440px;
     height: 177px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     position: relative;
 
 }
